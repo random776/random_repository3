@@ -1,0 +1,18 @@
+{
+  "name": "app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server/main.js",
+    "build": "vite build client --outDir ../dist",
+    "prestart": "npm run build"
+  },
+  "devDependencies": {
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.2.1",
+    "express": "^4.18.2"
+  }
+}
