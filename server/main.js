@@ -1,5 +1,5 @@
 import express from "express";
-const app = express(C);
+const app = express();
 
 app.use(express.json());
 //Viteによって出力されたディレクトリの配信
